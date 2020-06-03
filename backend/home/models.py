@@ -36,3 +36,4 @@ class HomePage(models.Model):
 class TestSpec(models.Model):
     "Generated Model"
     dasd = models.BigIntegerField()
+    vb123 = models.CharField(max_length=256, null=True, blank=True,)
